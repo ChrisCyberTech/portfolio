@@ -3,7 +3,6 @@
 Hands-on Raspberry Pi labs for networking, DNS filtering (Pi-hole), file sharing, remote access, and home-lab infrastructure.
 
 ---
-
 ## 📚 Lab Index
 
 1. 🔧 **Lab 1 – Raspberry Pi Setup + Pi-hole Installation**  
