@@ -6,8 +6,8 @@ Hands-on Raspberry Pi labs for networking, DNS filtering (Pi-hole), file sharing
 
 ## 📚 Lab Index
 
-🔧 **Lab 1 – Raspberry Pi Setup + Pi-hole Installation**  
-🔧 **Lab 1 – Raspberry Pi Setup + Pi-hole Installation**  
+
+1. 🔧 **Lab 1 – Raspberry Pi Setup + Pi-hole Installation**  
 ➡️ [Open Lab 1](./labs/lab1-raspberry-pi-setup/README.md)
 
 
