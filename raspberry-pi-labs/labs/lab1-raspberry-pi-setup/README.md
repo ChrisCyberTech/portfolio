@@ -1,69 +1,62 @@
-# 🥧 Raspberry Pi Labs
+# Lab 1 — Raspberry Pi Initial Setup & Secure SSH Configuration
 
-Hands-on hardware labs for networking, DNS filtering, file sharing, and home-lab infrastructure using a Raspberry Pi 4 (8GB).
-
-This folder contains all Raspberry Pi–related labs, including Pi-hole setup, remote access, and file server configuration.
+This lab covers the complete setup of a Raspberry Pi from initial flashing to securing the system with SSH hardening. It prepares the Pi for future labs such as file server configuration, firewall hardening, and Pi-hole.
 
 ---
 
-## 📌 Lab 1 — Raspberry Pi Setup + Pi-hole Installation
-
-**Objectives:**
-- Flash Raspberry Pi OS using Raspberry Pi Imager  
-- Configure hostname, OS user, and Wi-Fi  
-- Enable SSH for remote management  
-- Install Pi-hole as a network-wide DNS filter  
-- Verify DNS blocking and test on macOS/iPhone  
-- Capture screenshots for GitHub documentation  
-
-📁 **Lab folder:**  
-[`./lab1-pi-setup-and-pihole`](./lab1-pi-setup-and-pihole/README.md)
+## Objectives
+- Flash Raspberry Pi OS  
+- Configure localization settings  
+- Complete first-boot updates  
+- Enable and secure SSH  
+- Configure static IP  
+- Enable firewall and apply basic system hardening  
 
 ---
 
-## 📁 Folder Structure
-
-raspberry-pi-labs/
-│
-├── lab1-pi-setup-and-pihole/
-│ ├── README.md
-│ └── screenshots/
-│ ├── RPI-L1-01_RaspberryPiImager-Home.png
-│ ├── RPI-L1-02_OS-Selection.png
-│ ├── RPI-L1-03_Storage-Selection.png
-│ ├── RPI-L1-04_Settings-Overlay.png
-│ ├── RPI-L1-05_Flashing-Progress.png
-│ ├── RPI-L1-06_Write-Success.png
-│ ├── RPI-L1-07_FirstBoot-Screen.png
-│ ├── RPI-L1-08_PiHole-Install-CLI.png
-│ ├── RPI-L1-09_PiHole-WebUI-Login.png
-│ └── (your hardware pictures later)
-
-yaml
-Copy code
+## System Used
+- Raspberry Pi 4 Model B (8GB)  
+- Raspberry Pi OS (64-bit)  
+- macOS host system  
+- Netgear R8000P router  
 
 ---
 
-## 📚 Upcoming Labs
+## Screenshots
 
-### **Lab 2 — Raspberry Pi File Server (Samba / SMB)**
-- Create shared network folders  
-- Add read/write permissions  
-- Connect from macOS Finder  
-- Test large file transfers  
-- Validate reliability & speed  
+### 1. Device Selection  
+![Device Selection](screenshots/Lab1-01_DeviceSelection.png)
 
-### **Lab 3 — Pi-hole Advanced Filtering**
-- Block streaming service ad domains  
-- Add custom blocklists  
-- Query log investigation  
-- Local DNS overrides  
+### 2. OS Selection  
+![OS Selection](screenshots/Lab1-02_OSSelection.png)
+
+### 3. Localization Settings  
+![Localization](screenshots/Lab1-03_Localisation.png)
+
+### 4. Write Verification  
+![Write Verification](screenshots/Lab1-04_WriteVerification.png)
+
+### 5. Flash Complete  
+![Write Complete](screenshots/Lab1-05_WriteComplete.png)
+
+### 6. First Login via SSH (macOS Terminal)  
+![Mac SSH First Login](screenshots/RPi1-05_Mac_ssh_FirstLogin.png)
+
+### 7. System Update  
+![System Update](screenshots/RPi1-06_Terminal_System_Update.png)
+
+### 8. Static IP Configuration  
+![Static IP Config](screenshots/RPi1-07_Static_IP_Config.png)
+
+### 9. Firewall Enabled  
+![Firewall Enabled](screenshots/RPi1-08_Firewall_Enabled.png)
+
+### 10. SSH Key Installed  
+![SSH Key Installed](screenshots/RPi1-09_Mac_SSH-Key-Installed.png)
+
+### 11. SSH Hardening Complete  
+![SSH Hardening](screenshots/RPi1-10_SSH-Config_Hardening.png)
 
 ---
 
-## ✅ Status
-- **Lab 1: In progress**
-- **Lab 2: Planned**
-- **Lab 3: Planned**
 
----
