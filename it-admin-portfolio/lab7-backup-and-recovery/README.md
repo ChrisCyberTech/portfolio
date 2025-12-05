@@ -2,7 +2,6 @@
 **Windows Server 2022 | DC01**
 
 This lab demonstrates how to install Windows Server Backup, configure full and incremental backups, simulate data loss, and perform file recovery on DC01.
-# test
 ---
 
 ## 📌 **Objectives**
